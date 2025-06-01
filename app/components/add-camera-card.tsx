@@ -16,7 +16,7 @@ interface AddCameraCardProps {
 export function AddCameraCard({ onConnect }: AddCameraCardProps) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [formData, setFormData] = useState({
-    ipAddress: "192.168.1.100",
+    ipAddress: "192.168.1.102",
     username: "admin",
     password: "PII2025",
     name: "gare logistique - zone 1",
